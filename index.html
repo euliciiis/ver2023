@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- Custom CSS-->
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- Scroll Animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <!-- jQuery -->
+  <script defer src="https://code.jquery.com/jquery-3.7.1.js"></script>
+  <!-- Custom JS-->
+  <script defer src="./script.js"></script>
+  <!-- Font Awesome-->
+  <script defer src="https://kit.fontawesome.com/6866398b36.js" crossorigin="anonymous"></script>
+  <!-- Typing Animation JS -->
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <!-- Particles JS -->
+  <script defer src="./assets/plug-ins/particles.js-master/particles.js"></script>
+  <script defer src="./assets/plug-ins/particles.js-master/demo/js/app.js"></script>
+  <script src="./assets/plug-ins/particles.js-master/demo/particles.json"></script>
+</head>
+
+<body>
+
+  <div id="particles-js" class="container-fluid">
+  </div>
+  <!-- navbar -->
+  <nav class="sticky-top navbar navbar-expand-lg" id="navbar">
+    <div class="container-fluid">
+      <button class="navbar-toggler align-items-center" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item text-lg-center">
+            <a class="nav-link" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item text-lg-center">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item text-lg-center">
+            <a class="nav-link" href="#work">Work</a>
+          </li>
+          <li class="nav-item text-lg-center">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar -->
+
+  <!-- Intro Section -->
+  <section id="home" class="mt-5">
+    <div class="container home">
+      <div style="height: 100vh;" class="row justify-content-lg-center align-items-center">
+        <div data-aos="fade-right" data-aos-easing="linear" data-aos-duration="900"
+          class="col-lg-5 text-center d-none d-lg-inline-block">
+          <img style="margin-left: -1176px;" src="./assets/images/Sculpture_2-removebg-preview.png"
+            alt="Sculpture Image">
+        </div>
+        <div data-aos="zoom-out" data-aos-duration="900" class="col-lg-5 text-center text-md-start text-light px-5">
+          <h1>
+            <div class="display-2 custom-shadow">Francis Ver</div>
+            <div class="display-5 custom-shadow">
+              <span class="animate"></span>
+            </div>
+          </h1>
+          <p class="lead my-4 custom-shadow">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis molestiae assumenda numquam?
+          </p>
+          <a href="#contact" class="btn btn-lg">Contact Me</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Intro Section -->
+
+  <!-- About Section -->
+  <section id="about" class="py-5 my-5">
+    <div class="container-xl text-light">
+      <div style="height: 100vh;" class="row justify-content-center align-items-center p-5">
+        <div data-aos="fade-left" data-aos-duration="900" data-aos-easing="ease-in-sine"
+          class="col d-sm-block d-lg-none text-center">
+          <img class="img-fluid p-5" src="./assets/images/aboutme-removebg-preview.png" alt="">
+        </div>
+
+        <div data-aos="fade-right" data-aos-duration="900" data-aos-easing="ease-in-sine"
+          class="col-md text-center text-lg-end mb-5">
+          <h1>
+            <div class="display-2 custom-shadow mb-5">About me</div>
+          </h1>
+          <p class="lead my-4 mb-5 custom-shadow">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid
+            dolor
+            sint quam, ut
+            excepturi exercitationem repellendus. Est, nisi beatae non quisquam enim delectus quod maxime ut molestiae
+            repellendus! Asperiores, doloribus?</p>
+        </div>
+
+        <div data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine"
+          class="col-lg text-center d-none d-lg-block">
+          <img src="./assets/images/aboutme-removebg-preview.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- About Section -->
+
+  <!-- Work Section -->
+  <section id="work" class="my-5 py-5">
+    <div class="container-xl text-light">
+      <div style="height: 100vh;" class="row justify-content-center align-items-center p-0">
+        <div data-aos="fade-up-right" data-aos-duration="900" class="col-md-5 text-center my-5">
+          <img src="./assets/images/download-removebg-preview.png" alt="" class="img-fluid">
+        </div>
+
+        <div data-aos="fade-up-left" data-aos-duration="900" class="col-md-5 text-center text-lg-start p-2 my-5">
+          <div class="title">
+            <h1 class="display-2 mx-4 custom-shadow">Work</h1>
+            <p class="lead mx-4 custom-shadow">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+              delectus sapiente ut
+              suscipit quo aliquid deleniti, nobis quas commodi enim fugiat, consectetur corrupti laborum excepturi,
+              eligendi et expedita iusto voluptate.</p>
+          </div>
+          <div class="col display-1 text-center">
+            <i data-aos="zoom-in" data-aos-delay="500" data-aos-duration="500" style="color: rgba(229, 77, 38, .5);"
+              class="fa-brands fa-html5"></i>
+            <i data-aos="zoom-out" data-aos-delay="700" data-aos-duration="700" style="color: rgba(240, 219, 78, .5);"
+              class="fa-brands fa-square-js"></i>
+            <i data-aos="zoom-in" data-aos-delay="600" data-aos-duration="600" style="color: rgba(33, 117, 155, .8);"
+              class="fa-brands fa-wordpress"></i>
+            <i data-aos="zoom-out" data-aos-delay="700" data-aos-duration="700" style="color: rgba(122, 17, 248, .8);"
+              class="fa-brands fa-bootstrap"></i>
+            <i data-aos="zoom-in" data-aos-delay="500" data-aos-duration="500" style="color: rgba(48, 159, 215, .5);"
+              class="fa-brands fa-css3-alt"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Work Row 1 -->
+  <section id="work" class="my-5 py-5">
+    <div class="container-xl text-light">
+      <div class="row text-light justify-content-center align-items-center p-5 gx-5">
+        <div class="col-sm-12 text-center">
+          <h1 class="display-2 mt-5" data-aos="fade-down" data-aos-duration="900">What I Do</h1>
+        </div>
+        <!-- First Skill Row -->
+        <div class="col-lg-4 text-center text-lg-start" data-aos="fade-right" data-aos-duration="900">
+          <div class="service-item">
+            <i style="color: purple;" class="fa fa-bullseye custom-icons ps-lg-3"></i>
+            <h3>UI/UX Design</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae illo quam ducimus inventore fugiat
+              debitis?</p>
+          </div>
+          <div class="progress-item pb-5 align-items-end">
+            <div class="progress" data-aos="zoom-in" data-aos-duration="1200">
+              <div class="progress-bar purple" role="progressbar" style="width: 75%;" aria-valuenow="75"
+                aria-valuemin="0" aria-valuemax="100">Intermidiate</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 text-center" data-aos="zoom-in" data-aos-duration="900">
+          <div class="service-item">
+            <i style="color: skyblue;" class="fa fa-object-ungroup custom-icons pe-lg-3"></i>
+            <h3>Software & App Development</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae illo quam ducimus inventore fugiat
+              debitis?</p>
+          </div>
+          <div class="progress-item pb-5">
+            <div class="progress" data-aos="zoom-in" data-aos-duration="1200">
+              <div class="progress-bar skyblue" role="progressbar" style="width: 50%;" aria-valuenow="50"
+                aria-valuemin="0" aria-valuemax="100">Beginner</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 text-center text-lg-end" data-aos="fade-left" data-aos-duration="900">
+            <div class="service-item">
+              <i style="color: brown;" class="fa fa-code custom-icons"></i>
+              <h3>Web Development</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae illo quam ducimus inventore fugiat
+                debitis?</p>
+            </div>
+            <div class="progress-item pb-5">
+              <div class="progress" data-aos="zoom-in" data-aos-duration="1200">
+                <div class="progress-bar brown" role="progressbar" style="width: 75%;" aria-valuenow="75"
+                  aria-valuemin="0" aria-valuemax="100">Intermidiate</div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <!-- Work Section -->
+  </section>
+
+  <!--Contact Section -->
+  <section id="contact" class="py-5 my-5">
+    <div class="container-xl text-light">
+      <div class="row justify-content-center align-items-center pb-5 mb-5">
+        <div class="col-sm-12 text-center">
+          <h1 class="display-2 mt-5" data-aos="fade-down" data-aos-duration="900">Get in Touch</h1>
+        </div>
+      </div>
+      <div class="row text-light px-5 justify-content-center align-items-center">
+        <div class="col-sm-6  text-center text-sm-start">
+          <div class="mb-4" data-aos="fade-right" data-aos-delay="100">
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Full Name">
+          </div>
+          <div class="mb-4" data-aos="fade-right" data-aos-delay="200">
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email@example.com">
+          </div>
+          <div class="mb-4" data-aos="fade-right" data-aos-delay="300">
+            <textarea class="form-control text-dark" id="exampleFormControlTextarea1" placeholder="Message" rows="3"></textarea>
+          </div>
+          <a href="#contact" class="btn btn-lg" data-aos="fade-right" data-aos-delay="400">Submit</a>
+        </div>
+
+        <div class="col-sm-6 contact-info text-center text-sm-end">
+          <div class="col-sm-12 my-5 email" data-aos="fade-left" data-aos-delay="100">
+            <span class="mx-2">eulicis04@gmail.com</span>
+            <i class="fa-solid fa-envelope email icon"></i>
+          </div>
+          <div class="col-sm-12 my-5 phone" data-aos="fade-left" data-aos-delay="200">
+            <span class="mx-2">+639455284270</span>
+            <i class="fa-solid fa-phone phone icon"></i>
+          </div>
+          <div class="col-sm-12 mb-0 socmed" data-aos="fade-left" data-aos-delay="300">
+            <span class="mx-2">@furanshizu_</span>
+          </div>
+          <div class="col-sm-12 my-1 socmed" data-aos="fade-left" data-aos-delay="300">
+            <span class="mx-2">
+            <i class="fa-brands fa-square-x-twitter socmed icon"></i>
+            </span>
+            <span class="mx-2">
+            <i class="fa-brands fa-twitch socmed icon"></i>
+            </span>
+            <span class="mx-2">
+            <i class="fa-brands fa-square-facebook socmed icon"></i>
+            </span>
+            <span class="mx-2">
+            <i class="fa-brands fa-square-github socmed icon"></i>
+            </span>
+            <span class="mx-2">
+            <i class="fa-brands fa-instagram socmed icon"></i>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Contact Section -->
+</body>
+
+</html>

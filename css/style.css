@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Mooli&display=swap');
+
+@font-face {
+  font-family: The Seasons;
+  src: url(/assets/fonts/Demo_Fonts/Fontspring-DEMO-theseasons-lt.otf);
+}
+@font-face {
+  font-family: Romelu;
+  src: url(/assets/fonts/RomeluvomeluItalic-2Owdw.otf);
+}
+/* BODY */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  min-height: 100vh;
+  background-image: radial-gradient(circle farthest-side at 80% 10%, rgb(211, 199, 199), #000);
+  background-position: fixed;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+  color: rgb(240, 255, 255);
+}
+/* Particle Effect */
+#particles-js {
+  position: fixed;
+  opacity: .3;
+}
+
+/* Paraghraps */
+p {
+  color: azure;
+  font-family: "Mooli", sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.service-item {
+  font-family: "Mooli", sans-serif;
+}
+/* Contact Button */
+a.btn.btn-lg {
+  font-family: "Mooli", sans-serif;
+  background-color: rgb(240, 255, 255);
+  transition: all .2s ease;
+}
+a.btn.btn-lg:hover {
+  background-color: rgb(250, 235, 215);
+  color: rgb(77, 83, 83);
+}
+/* Navigation */
+.nav-item a {
+  font-family: "Mooli", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  color: rgb(240, 255, 255);
+  width: 130px;
+  transition: all .4s ease;
+}
+.nav-item a:hover {
+  transform: translateY(-4px);
+  color: rgb(250, 235, 215);
+}
+/* Header / Titles */
+div.display-2, h1.display-2 {
+  color: rgb(240, 255, 255);
+  font-family: "Mooli", sans-serif;
+  font-weight: 500;
+  font-size: 85px;
+}
+div.display-5, h3.display-5 {
+  color: rgb(240, 255, 255);
+  font-family: "Mooli", sans-serif;
+}
+/* Custom Styles */
+.custom-shadow {
+  text-shadow: -5px 8px 10px #000;
+}
+.custom-icons {
+  font-size: 35px;
+  margin-bottom: 5px;
+}
+/* Progress Bar */
+div.progress {
+  min-height: 30px;
+  border-radius: 50px;
+}
+
+.progress-bar.purple {
+  background-color: rgb(128, 0, 128);
+  font-size: 15px;
+}
+.progress-bar.brown {
+  background-color: rgb(165, 42, 42);
+  font-size: 15px;
+}
+.progress-bar.skyblue {
+  background-color: rgb(135, 206, 235);
+  font-size: 15px;
+}
+/* Contact Styles */
+input.form-control {
+  font-family: 'Mooli', sans-serif;
+  font-size: 18px;
+}
+
+textarea.form-control {
+  font-family: 'Mooli', sans-serif;
+  font-size: 18px;
+  resize: none;
+}
+div.email, div.phone, div.socmed {
+  font-family: 'Mooli', sans-serif;
+  font-size: 20px;
+}
+
+div.email, div.phone, div.socmed {
+  cursor: pointer;
+}
+
+i.icon {
+  font-size: 25px;
+  cursor: pointer;
+}
