@@ -123,7 +123,7 @@ i.icon {
   cursor: pointer;
 }
 
-@media screen and (min-width: 780px) {
+/* @media screen and (min-width: 780px) {
   div.display-2 {
     font-size: 55px;
   }
@@ -131,7 +131,7 @@ i.icon {
   p.lead {
     font-size: 17px;
   }
-}
+} */
 
 @media screen and (max-width: 999px) {
   div.display-2 {
