@@ -90,7 +90,7 @@
   <!-- About Section -->
   <section id="about" class="py-5 my-5">
     <div class="container-xl text-light">
-      <div style="height: 100vh;" class="row justify-content-center align-items-center p-5">
+      <div style="min-height: 100vh;" class="row justify-content-center align-items-center p-5">
         <div data-aos="fade-left" data-aos-duration="900" data-aos-easing="ease-in-sine"
           class="col d-sm-block d-lg-none text-center">
           <img class="img-fluid p-5" src="./assets/images/aboutme-removebg-preview.png" alt="">
@@ -120,9 +120,9 @@
   <!-- Work Section -->
   <section id="work" class="my-5 py-5">
     <div class="container-xl text-light">
-      <div style="height: 100vh;" class="row justify-content-center align-items-center p-0">
+      <div style="min-height: 100vh;" class="row justify-content-center align-items-center p-0">
         <div data-aos="fade-up-right" data-aos-duration="900" class="col-md-5 text-center my-5">
-          <img class="img-fluid d-none d-md-block" src="./assets/images/download-removebg-preview.png" alt="">
+          <img class="img-fluid" src="./assets/images/download-removebg-preview.png" alt="">
         </div>
         <div data-aos="fade-up-left" data-aos-duration="900" class="col-md-5 text-center text-lg-start p-2 my-5">
           <div class="title mx-4 my-4">
@@ -224,7 +224,7 @@
           <div class="mb-4" data-aos="fade-right" data-aos-delay="300">
             <textarea class="form-control text-dark" id="exampleFormControlTextarea1" placeholder="Message" rows="3"></textarea>
           </div>
-          <a href="#contact" class="btn btn-lg" data-aos="fade-right" data-aos-delay="400">Submit</a>
+          <a type="submit" href="#contact" class="btn btn-lg" data-aos="fade-right" data-aos-delay="400" onclick="alert('Thank you. Your message has been submitted.')">Submit</a>
         </div>
 
         <div class="col-sm-6 contact-info text-center text-sm-end">
