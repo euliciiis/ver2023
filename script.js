@@ -25,7 +25,7 @@ window.addEventListener('scroll', function(){
 });
 
 // Typing Animation
-    let typed = new Typed('.animate', {
+    var typed = new Typed('.animate', {
       strings: [
         'Web Developer',
         'UI/UX Designer',
