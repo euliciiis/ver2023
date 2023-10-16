@@ -15,7 +15,7 @@ window.addEventListener('scroll', function(){
   var scrollTop = window.scrollY || document.documentElement.scrollTop;
 
   if (scrollTop > lastScrollTop) {
-    navbar.style.top = '-50px';
+    navbar.style.top = '-60px';
     navbar.style.transition = 'all .3s ease';
   } else {
     navbar.style.top = '0';
